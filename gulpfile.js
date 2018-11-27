@@ -75,6 +75,6 @@ gulp.task('tsc:watch', gulp.series(function (done) {
 }));
 
 // Gulp default task
-gulp.task('default', gulp.series(['html', 'tsc', 'scss']));
+gulp.task('default', gulp.parallel(['html', 'tsc', 'scss']));
 
-gulp.task('watch', gulp.series(['tsc:watch', 'scss:watch']));
+gulp.task('watch', gulp.series("default", gulp.parallel(['tsc:watch', 'scss:watch'])));
