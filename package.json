@@ -1,5 +1,5 @@
 {
-  "name": "typescript-start",
+  "name": "mdc-textfield-not-exported",
   "version": "1.0.0",
   "description": "Repro of issue https://github.com/material-components/material-components-web/issues/4135",
   "main": "app.ts",
