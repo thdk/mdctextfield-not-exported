@@ -1,30 +1,22 @@
 {
   "name": "typescript-start",
   "version": "1.0.0",
-  "description": "A start boiler template for typescript projects",
-  "main": "src/js/app.ts",
+  "description": "Repro of issue https://github.com/material-components/material-components-web/issues/4135",
+  "main": "app.ts",
   "scripts": {
-    "test": "we are live!",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "lite": "lite-server --baseDir ./dist",
-    "start": "concurrently \"gulp\" \"gulp watch\" \"npm run lite\" "
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thdk/typescript-start.git"
+    "url": "git+https://github.com/thdk/mdctextfield-not-exported.git"
   },
   "author": "thdk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thdk/typescript-start/issues"
+    "url": "https://github.com/thdk/mdctextfield-not-exported/issues"
   },
-  "homepage": "https://github.com/thdk/typescript-start#readme",
+  "homepage": "https://github.com/thdk/mdctextfield-not-exported#readme",
   "devDependencies": {
-    "concurrently": "^4.1.0",
-    "gulp-sass": "^4.0.2",
-    "lite-server": "^2.4.0",
-    "rollup": "^0.67.3",
     "rollup-plugin-commonjs": "8.3.0",
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-typescript": "^1.0.0",
