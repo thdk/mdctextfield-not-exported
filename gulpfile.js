@@ -1,7 +1,6 @@
 
 // Add dependencies
 const gulp = require('gulp');
-const rollup = require('rollup');
 const rollupstream = require('rollup-stream');
 const source = require('vinyl-source-stream');
 
