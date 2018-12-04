@@ -1,4 +1,4 @@
-# typescript-start
+# error-MDCTextField-not-exported
 Repo to reproduce issue https://github.com/material-components/material-components-web/issues/4135
 
 Clone the repo.
